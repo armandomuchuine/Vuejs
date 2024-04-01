@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Olá Pessoal!</h1>
-    <p>Meu nome é {{ nome }} e sou um {{ profissao }}</p>
+    <p>Meu nome é {{ nome }}</p>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       nome: "Armando",
-      profissao: "Programador"
+      
     }
   }
 }
